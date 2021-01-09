@@ -7,6 +7,9 @@ CLASS zcl_test_diff DEFINITION
     METHODS test_1
       IMPORTING
         iv_test TYPE i.
+    METHODS test_2
+      IMPORTING
+        iv_test TYPE i.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -17,5 +20,9 @@ CLASS zcl_test_diff IMPLEMENTATION.
 
 
   METHOD test_1.
+  ENDMETHOD.
+
+
+  METHOD test_2.
   ENDMETHOD.
 ENDCLASS.
